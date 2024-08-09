@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocies Supermarket</title>
+
+    <link rel="stylesheet" href="A.css">
+    <link rel="fav icon" href="Images/shopping-cart_6442372.png">
+
+    <!--font-awsome link-->
+    <script src="https://kit.fontawesome.com/bb3cf1135f.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <!--logo-->
+    <header>
+        <div id="website-logo">
+            <img src="images/shopping-cart_6442372.png" alt="site-logo">
+
+        </div>
+        <!--navigation logo-->
+        <nav class="navigation">
+            <!--the logo-->
+            <a href="index.html" class="logo">
+                <span>e</span>Grocies
+            </a>
+            <!--menu-->
+            <ul class="menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="index.html#20">Catogories</a></li>
+                <li><a class="active" href="Order_page.html">Order grocery</a></li>
+                <li><a class="active" href="Loyalty_registration_page.html">Loyalty scheme</a></li>
+                <li><a class="active" href="About_us.html">About us</a></li>
+                <li id="m-logo"><a class="active" href="Login_page.html">Login</a></li>
+                <li id="m-nav"><a class="active" href="Cart_details.html">Cart details</a></li>
+            </ul>
+            <!--right-navigation-cart and like-->
+            <div class="right_nav">
+                <!--like-->
+                <a href="Login_page.html" class="like">
+                    <i class="fa-solid fa-user"></i>
+                    <br>
+                    <span>Login</span>
+                </a>
+            </div>
+            <!--cart-->
+            <div class="right_nav">
+                <a href="Cart_details.html" class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <br>
+                    <span>Cart items</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!--Page main content-->
+    <main class="order-items-sec" id="order-item-sec">
+        <h1>Order Groceries</h1>
+        <form>
+            <!--Vegitable items section-->
+            <section id="od-veg-sec" class="order-product-sec">
+                <h3>
+                    Vegitables
+                </h3>
+                <div class="order-container">
+                    <div class="order-field">
+                        <img src="images/product-img/vegetables/carrot.jpg" alt="carrot image">
+                        <h3>Carrot: 1KG</h3>
+                        <h4>Rs.450.00</h4>
+                        <label>KG: </label>:<input type="number" name="carrot" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/vegetables/Leeks.jpg" alt="leeks image">
+                        <h3>Leeks: 1KG</h3>
+                        <h4>Rs.350.00</h4>
+                        <label>KG: </label><input type="number" name="leeks" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/vegetables/Green-Cucumber.jpg" alt="cucumber image">
+                        <h3>Cucumber: 1KG</h3>
+                        <h4>Rs.200.00</h4>
+                        <label>KG: </label><input type="number" name="cucumber" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/vegetables/big-onions.jpg" alt="onion image">
+                        <h3>Onion: 1KG</h3>
+                        <h4>Rs.200.00</h4>
+                        <label>KG: </label><input type="number" name="onion" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/vegetables/cabbage.jpg" alt="cabbage image">
+                        <h3>cabbage: 1KG</h3>
+                        <h4>Rs.250.00</h4>
+                        <label>KG: </label><input type="number" name="cabbage" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/vegetables/potatoes.jpg" alt="potato image">
+                        <h3>Potato: 1KG</h3>
+                        <h4>Rs.200.00</h4>
+                        <label>KG: </label><input type="number" name="potato" placeholder="1KG" min="0" step="0.1">
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Fruits items section-->
+            <section id="od-fruit-sec" class="order-product-sec">
+                <h3>
+                    Fruits
+                </h3>
+                <div class="order-container">
+                    <div class="order-field">
+                        <img src="images/product-img/fruits/apple.jpg" alt="apple image">
+                        <h3>Apple: 1KG</h3>
+                        <h4>Rs.900.00</h4>
+                        <label>KG: </label><input type="number" name="apple" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fruits/banana.jpg" alt="banana image">
+                        <h3>Banana: 1KG</h3>
+                        <h4>Rs.300.00</h4>
+                        <label>KG: </label><input type="number" name="banana" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fruits/orange.jpg" alt="orange image">
+                        <h3>Orange: 1KG</h3>
+                        <h4>Rs.500.00</h4>
+                        <label>KG: </label><input type="number" name="orange" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fruits/mango.jpg" alt="mango image">
+                        <h3>Mango: 1KG</h3>
+                        <h4>Rs.400.00</h4>
+                        <label>KG: </label><input type="number" name="mango" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fruits/papaya.jpg" alt="papaya image">
+                        <h3>papaya: 1KG</h3>
+                        <h4>Rs.350.00</h4>
+                        <label>KG: </label><input type="number" name="papaya" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fruits/grapes.jpg" alt="grapes image">
+                        <h3>Grapes: 1KG</h3>
+                        <h4>Rs.300.00</h4>
+                        <label>KG: </label><input type="number" name="grapes" placeholder="1KG" min="0" step="0.1">
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Meats and Seafood items section-->
+            <section id="od-meat-seafood-sec" class="order-product-sec">
+                <h3>
+                    Meats and Seafood
+                </h3>
+                <div class="order-container">
+                    <div class="order-field">
+                        <img src="images/product-img/fish-meat/chicken-breast.jpg" alt="chickenBreast image">
+                        <h3>ChickenBreast: 1KG</h3>
+                        <h4>Rs.1200.00</h4>
+                        <label>QTY: </label><input type="number" name="chickenBreast" placeholder="1KG" min="0"
+                            step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fish-meat/beef.jpg" alt="beef image">
+                        <h3>Beef: 1KG</h3>
+                        <h4>Rs.1900.00</h4>
+                        <label>QTY: </label><input type="number" name="beef" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fish-meat/pork-cubes.jpg" alt="pork image">
+                        <h3>Pork: 1KG</h3>
+                        <h4>Rs.1300.00</h4>
+                        <label>QTY: </label><input type="number" name="pork" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fish-meat/fish.jpg" alt="fish image">
+                        <h3>Fish-Thalapath: 1KG</h3>
+                        <h4>Rs.2000.00</h4>
+                        <label>KG: </label><input type="number" name="fish" placeholder="1KG" min="0" step="0.1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fish-meat/salmon-makeral.jpg" alt="salmon can image">
+                        <h3 class="long-name-products">Salmon-Makeral: 425g</h3>
+                        <h4>Rs.200.00</h4>
+                        <label>QTY:</label><input type="number" name="salmon" placeholder="1">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fish-meat/sailfish cubes.jpg" alt="sailfish image">
+                        <h3>sailfish: 1QTY</h3>
+                        <h4>Rs.2000.00</h4>
+                        <label>KG: </label><input type="number" name="sailfish" placeholder="1KG">
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/fish-meat/bacon.jpg" alt="bacon image">
+                        <h3>Bacon: 1KG</h3>
+                        <h4>Rs.1900.00</h4>
+                        <label>QTY: <input type="number" name="bacon" placeholder="1KG"></label>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Diary items/products section-->
+            <section id="od-dairy-sec" class="order-product-sec">
+                <h3>
+                    Dairy Products
+                </h3>
+                <div class="order-container">
+                    <div class="order-field">
+                        <img src="images/product-img/diary-products/Anchor Milk powder-400g.jpg"
+                            alt="milk packet image">
+                        <h3>Milk: 400g</h3>
+                        <h4>Rs.1100.00</h4>
+                        <label>QTY: <input type="number" name="milk" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/diary-products/kotmale oats milk-1L.jpg" alt="cheese image">
+                        <h3>oat-milk: 1l</h3>
+                        <h4>Rs.600.00</h4>
+                        <label>QTY: <input type="number" name="oatMilk" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/diary-products/butter.jpg" alt="butter image">
+                        <h3>Butter: 225g</h3>
+                        <h4>Rs.350.00</h4>
+                        <label>QTY:<input type="number" name="butter" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/diary-products/set yourgurt Strawberry 80g.jpg"
+                            alt="yourgurt image">
+                        <h3>Yougurt: 80g</h3>
+                        <h4>Rs.80.00</h4>
+                        <label>QTY: <input type="number" name="yogurt" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/diary-products/iceCream.jpg" alt="ice-cream image">
+                        <h3>Ice-Cream: 1L</h3>
+                        <h4>Rs.1100.00</h4>
+                        <label>QTY: <input type="number" name="iceCream" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images//product-img/diary-products/sustagen junior vanilla-400g.jpg"
+                            alt="sustagen bottle image">
+                        <h3>sustagen: 200g</h3>
+                        <h4>Rs.750.00</h4>
+                        <label>QTY:<input type="number" name="sustagen" placeholder="1"></label>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Baking and cooking products/items section-->
+            <section id="od-cooking-sec" class="order-product-sec">
+                <h3>
+                    Baking and Cooking Products
+                </h3>
+                <div class="order-container">
+                    <div class="order-field">
+                        <img src="images/product-img/cooking/sugar.jpg" alt="sugar packet image">
+                        <h3>Sugar: 1KG</h3>
+                        <h4>Rs.1000.00</h4>
+                        <label>KG: <input type="number" name="sugar" placeholder="1KG" min="0" step="0.1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/cooking/baking-powder.jpg" alt="bakingPowder packet image">
+                        <h3 class="long-name-products">Baking-Powder: 500g</h3>
+                        <h4>Rs.500.00</h4>
+                        <label>QTY:<input type="number" name="bakingPowder" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/cooking/olive-oil.jpg" alt="olive oil bottle image">
+                        <h3>Olive Oil: 500ml</h3>
+                        <h4>Rs.900.00</h4>
+                        <label>QTY: <input type="number" name="OliveOil" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/cooking/salt.jpg" alt="salt packet image">
+                        <h3>Salt: 500g</h3>
+                        <h4>Rs.500.00</h4>
+                        <label>QTY: <input type="number" name="salt" placeholder="1KG"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/cooking/vanilla.jpg" alt="vanilla Extract bottle image">
+                        <h3 class="long-name-products">Vanilla Extract: 100ml</h3>
+                        <h4>Rs.450.00</h4>
+                        <label>QTY: <input type="number" name="vanillaExtract" placeholder="1"></label>
+                    </div>
+                    <div class="order-field">
+                        <img src="images/product-img/cooking/flour.jpg" alt="flour packet image">
+                        <h3>Flour: 1KG</h3>
+                        <h4>Rs.800.00</h4>
+                        <label>KG: <input type="number" name="flour" placeholder="1KG"></label>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!--Main functionings of the ordering products/items (Buttons)-->
+            <div id="buttons">
+                <button type="button" id="order-Now-btn">Place Order</button><!--Button to Add items to the cart-->
+                <button type="button" id="pay-btn">Buy
+                    Now</button><!--Button to go to the payment section {after places the order to the cart}-->
+                <button type="button" id="Add-to-fav-btn">Add to
+                    Favourite</button><!--Added items Favourites {saves the items in the cart in localStorage for later use.}-->
+                <button type="button" id="apply-fav-btn">Apply to
+                    Favourite</button><!--Apply items that are saved as favourites in localSotrage into the cart when clicked-->
+            </div>
+
+        </form>
+
+        <h2>Cart Details</h2>
+        <!--A table to display the items in the cart-->
+        <table id="cart-details">
+            <thead>
+                <tr>
+                    <td>item</td>
+                    <td>Qty/KG</td>
+                    <td>Price</td>
+                </tr>
+            </thead>
+            <tbody></tbody><!--Added product's details are appended as rows inside here-->
+        </table>
+
+        <p>Total Bill: <span id="total-order-bill">0.00</span></p>
+        <!--A place to output the total price by replacing inside content of the span with the total of items added-->
+    </main>
+    <footer class="bottom-footer">
+        <!--All the links reguarding the webpage appears here-->
+        <div class="ft-left">
+            <a href="index.html" class="logo">
+                <span>e</span>Grocies
+            </a>
+            <p class="page-links">
+
+                <a href="index.html">Home</a>
+                |
+                <a href="index.html#20">Catogories</a>
+                |
+                <a href="Order_page.html">Order Page</a>
+                |
+                <a href="About_us.html">About_us</a>
+                |
+            </p>
+            <br>
+            <p class="reference">product images: <a href="https://www.keellssuper.com/">Image by keellssuper</a> on
+                keellssuper</p>
+        </div>
+        <!--Contact details appears here-->
+        <div class="ft-center">
+            <div>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <span>Sri-lanka</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-square-phone-flip"></i>
+                <p>+94 11 111 1111</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <p><a href="mailto:grocies_feedback@gmail.com">grocies_feedback@gmail.com</a></p>
+
+            </div>
+        </div>
+        <!--Socials media links-->
+        <div class="ft-right">
+            <p class="ft-note"><span>Note:</span>
+                <strong>Grocies Supermarket</strong> is welcome you to send any feedback reguarding our website. Thank
+                you!
+            </p>
+            <div class="ft-social-links">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <!--Javascript file that resposible for the functionality of the webpage-->
+    <script src="main.js" defer></script>
+</body>
+
+</html>
